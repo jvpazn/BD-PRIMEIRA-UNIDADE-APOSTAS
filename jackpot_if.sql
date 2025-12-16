@@ -158,6 +158,7 @@ VALUES ('Ishmael', 'EUTEODEIOAHAB!!!!!!!!!!!!!!!!!!!!!!!!!!!', 3000);
 -- Apostas
 
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (1, 'roleta', 500, 0);
+INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (1, 'esporte', 250, 600);
 
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (2, 'esporte', 10.5, 21);
 
@@ -280,6 +281,7 @@ INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (28, N
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (29, NULL, 14);
 
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (30, NULL, 19);
+INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (30, NULL, 80);
 
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (31, NULL, 48);
 
@@ -288,6 +290,7 @@ INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (31, N
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (1, 200);
 
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (2, 50);
+INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (2, 900);
 
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (3, 500);
 
@@ -399,6 +402,7 @@ INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (19, 7);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (20, 7);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (21, 7);
 
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (18, 8);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (22, 8);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (23, 8);
 
@@ -406,6 +410,7 @@ INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (24, 9);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (25, 9);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (26, 9);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (27, 9);
+
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (28, 10);
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (29, 10);
