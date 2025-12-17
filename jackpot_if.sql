@@ -443,8 +443,52 @@ INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (31, 10);
 -- CONSULTAS PROPOSTAS (3 ENTREGA) [SCRIPT SQL AINDA A SER ADICIONADO]
 
 -- 1. Selecione o nome, saldo das três pessoas que não possuam a Vogal "A" mas que possuam a vogal "E" no nome e que possuem o maior saldo atual com o nome da tabela de retorno sendo "MAIORES APOSTADORES" e "RIQUEZA" (NOT, AND, LIKE, NOT LIKE, ORDER BY, LIMIT, ALIAS)
+SELECT 
+FROM usuario
+WHERE NOT nome_usuario LIKE '%a%'
+  AND nome_usuario LIKE '%e%'
+ORDER BY saldo_atual DESC
+LIMIT 3;
 -- 2. Selecione o grupo comunidade onde a soma do saldo de todos os participantes seja maior que o resto. (SUM, GROUP BY, HAVING, Subselect, MAX, = (Igual), INNER JOIN)
 -- 3. Selecione todas as comunidades que possuam pelo menos um participante cujo id seja diferente de 3 e retorne apenas aquelas em que o id do responsável é menor que 10 ou maior que 20. (<> (Diferente), OR, < (menor que), >(Maior que), Subselect, IN)
+SELECT *
+FROM grupo_comunidade
+WHERE id IN (
+    SELECT DISTINCT ug.grupo_id
+    FROM usuario_grupo ug
+    WHERE ug.usuario_id <> 3
+)
+AND (
+    responsavel_id < 10
+    OR responsavel_id > 20
+);
 -- 4. Selecione o id da sessão de todos os log depositos que o id da sessão NÃO esteja entre 10 e 20 e que o valor depositado distinto seja maior ou igual que a média de todos os valores depositados (AVG, NOT BETWEEN, >= (maior ou igual), DISTINCT)
 -- 5. Selecione os 5 ids de log depositos que estão entre 15 e 30 que não sejam 13, 15 e 16 que depositaram os menores valores se houver algum nulo, retorne ele tambem. (NOT IN, BETWEEN, IS NULL)
+SELECT id_deposito
+FROM log_depositos
+WHERE 
+    (
+        (id_deposito BETWEEN 15 AND 30)      
+        AND id_deposito NOT IN (13, 15, 16)   
+    )
+    OR id_deposito IS NULL               
+ORDER BY valor_adicionado ASC               
+LIMIT 5;
 -- 6. Selecione o nome dos usuários e retorne o número total de depósitos feitos por esses usuários e o menor valor de aposta que eles já fizeram filtre o resultado para mostrar apenas os usuários cujo saldo_atual é menor ou igual a R$ 50,00 e cujo id não é nulo. (MIN, COUNT, <= (menor que), IS NOT NULL, Subselect, GROUP BY)
+SELECT 
+    u.nome_usuario,
+    (SELECT COUNT(ld.id_deposito)
+     FROM sessoes_usuario su
+     JOIN log_depositos ld ON su.id_sessao = ld.id_sessao
+     WHERE su.userId = u.id) AS total_depositos,
+    
+    MIN(a.valor_apostado) AS menor_valor_aposta
+FROM 
+    usuario u
+JOIN 
+    aposta a ON u.id = a.userId
+WHERE 
+    u.saldo_atual <= 50.00     
+    AND u.id IS NOT NULL     
+GROUP BY 
+    u.id, u.nome_usuario;
