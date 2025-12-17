@@ -61,108 +61,82 @@ CREATE TABLE usuario_grupo (
 -- Decidimos fazer vários para ficar mais facil no de fazer os Select_from :3
 
 -- usuarios
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Angela', 'OdeiovcAyin', 1200); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Angela', 'OdeiovcAyin', 1200); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Roland', 'AngelicaMeuAmor', 75); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Roland', 'AngelicaMeuAmor', 75); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Malkuth', 'Malcute:3', 2100); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Malkuth', 'Malcute:3', 2100); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Yesod', 'Java>C++', 250); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Yesod', 'Java>C++', 250); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Hod', 'ClubeLiteratura', 1800); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Hod', 'ClubeLiteratura', 1800); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Netzach', 'BeberEapostar', 110000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Netzach', 'BeberEapostar', 110000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Tiphereth', 'GarotasMagicas', 22); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Tiphereth', 'GarotasMagicas', 22); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Gebura', 'DISCIPLINA2000', 850); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Gebura', 'DISCIPLINA2000', 850); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Chesed', 'Cafe3coracoes', 78000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Chesed', 'Cafe3coracoes', 78000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Binah', 'SouMelhorqueoAristoteles333', 9500); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Binah', 'SouMelhorqueoAristoteles333', 9500); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Hokma', 'AmovcAyin', 120000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Hokma', 'AmovcAyin', 120000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Mirinae', 'HANAassocDirector', 14500); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Mirinae', 'HANAassocDirector', 14500); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Harold', 'Debuff3x00', 450); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Harold', 'Debuff3x00', 450); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Olivier', 'AmovcRoland', 9500); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Olivier', 'AmovcRoland', 9500); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Pete', 'GuiaDosRatosparaviverNaCidade', 10); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Pete', 'GuiaDosRatosparaviverNaCidade', 10); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Lenny', 'GuiaDosRatosparaviverNaCidade', 8); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Lenny', 'GuiaDosRatosparaviverNaCidade', 8); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Mang-Chi', 'GuiaDosRatosparaviverNaCidade', 15); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Mang-Chi', 'GuiaDosRatosparaviverNaCidade', 15); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Ricardo', 'FAMILIAEM1LUGAR1!!!!!!!!!!!', 120000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Ricardo', 'FAMILIAEM1LUGAR1!!!!!!!!!!!', 120000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Don Quixote', 'LosSangredeLosHermanos', 15000000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Don Quixote', 'LosSangredeLosHermanos', 15000000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Sinclair', 'KromerKromerKromer1!!!!!!!!!!', 150000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Sinclair', 'KromerKromerKromer1!!!!!!!!!!', 150000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Meursalt', 'Meursalt', 110000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Meursalt', 'Meursalt', 110000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Jia Qiu', 'DigaMeJIABAOYU,OqueHonguyanPrecisa?', 1300000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Jia Qiu', 'DigaMeJIABAOYU,OqueHonguyanPrecisa?', 1300000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Zilu', 'AdeptoHeishou', 12000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Zilu', 'AdeptoHeishou', 12000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Sancho', 'UmsonhoIrrealizavel', 1234); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Sancho', 'UmsonhoIrrealizavel', 1234); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Dulcinea', 'ArainhaDaParada', 11000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Dulcinea', 'ArainhaDaParada', 11000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Nicolina', 'ManchalandComMascarasPraSempre', 2000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Nicolina', 'ManchalandComMascarasPraSempre', 2000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Curiambro', 'IreiMorrerPelosSeusPecados', 3000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Curiambro', 'IreiMorrerPelosSeusPecados', 3000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Ahab', 'ACULPAÉTODASUAISHMAEL!', 10000000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Ahab', 'ACULPAÉTODASUAISHMAEL!', 10000000); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Queequeg', 'IshmaelTeAmo', 1500); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Queequeg', 'IshmaelTeAmo', 1500); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('StarBuck', 'StarbucksEmployee', 2500); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('StarBuck', 'StarbucksEmployee', 2500); 
+INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) VALUES ('Ishmael', 'EUTEODEIOAHAB!!!!!!!!!!!!!!!!!!!!!!!!!!!', 3000); 
 
-INSERT INTO usuario (nome_usuario, senha_hash, saldo_atual) 
-VALUES ('Ishmael', 'EUTEODEIOAHAB!!!!!!!!!!!!!!!!!!!!!!!!!!!', 3000); 
-
--- Apostas
-
+-- apostas
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (1, 'roleta', 500, 0);
+
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (1, 'esporte', 250, 600);
+
+INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (1, 'tigrinho', 100, 300);
 
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (2, 'esporte', 10.5, 21);
 
+INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (2, 'roleta', 100, 0);
+
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (3, 'tigrinho', 250, 1500);
+
+INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (3, 'esporte', 50, 0);
 
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (4, 'roleta', 15, 30);
 
@@ -220,11 +194,16 @@ INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (30, 'tigr
 
 INSERT INTO aposta (userId, tipo, valor_apostado, valor_ganho) VALUES (31, 'roleta', 300, 600);
 
--- Sessoes_Usuario
-
+-- sessoes_usuario
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (1, NULL, 45);
 
+INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (1, NULL, 15);
+
+INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (1, NULL, 120);
+
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (2, NULL, 30);
+
+INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (2, NULL, 10);
 
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (3, NULL, 60);
 
@@ -281,18 +260,27 @@ INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (28, N
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (29, NULL, 14);
 
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (30, NULL, 19);
+
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (30, NULL, 80);
 
 INSERT INTO sessoes_usuario (userId, data_logout, duracao_minutos) VALUES (31, NULL, 48);
 
--- Log_depositos
-
+-- log_depositos
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (1, 200);
 
+INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (1, 150);
+
+INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (1, 50);
+
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (2, 50);
+
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (2, 900);
 
+INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (2, 100);
+
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (3, 500);
+
+INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (3, 1000);
 
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (4, 80);
 
@@ -350,8 +338,7 @@ INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (30, 60);
 
 INSERT INTO log_depositos (id_sessao, valor_adicionado) VALUES (31, 500);
 
--- Grupos
-
+-- grupo_comunidade
 INSERT INTO grupo_comunidade (nome, responsavel_id) VALUES ('Bibliotecarios Principais', 1);
 
 INSERT INTO grupo_comunidade (nome, responsavel_id) VALUES ('Bibliotecarios Asiyah', 1);
@@ -373,50 +360,86 @@ INSERT INTO grupo_comunidade (nome, responsavel_id) VALUES ('La manchaland', 24)
 INSERT INTO grupo_comunidade (nome, responsavel_id) VALUES ('O pequod', 28);
 
 -- usuario_grupo
-
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (1, 1);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (1, 2);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (1, 3);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (2, 1);
 
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (2, 2);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (3, 1);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (3, 3);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (10, 1); 
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (15, 1);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (18, 1);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (3, 2);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (4, 2);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (5, 2);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (6, 2);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (7, 3);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (8, 3);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (9, 3);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (10, 4);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (11, 4);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (12, 5);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (13, 5);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (14, 5);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (15, 6);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (16, 6);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (17, 6);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (18, 7);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (19, 7);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (20, 7);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (21, 7);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (18, 8);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (22, 8);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (23, 8);
 
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (24, 9);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (25, 9);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (26, 9);
+
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (27, 9);
 
-
 INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (28, 10);
-INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (29, 10);
-INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (30, 10);
-INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (31, 10);
 
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (29, 10);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (30, 10);
+
+INSERT INTO usuario_grupo (usuario_id, grupo_id) VALUES (31, 10);
+    
 -- CONSULTAS PROPOSTAS (3 ENTREGA) [SCRIPT SQL AINDA A SER ADICIONADO]
 
 -- 1. Selecione o nome, saldo das três pessoas que não possuam a Vogal "A" mas que possuam a vogal "E" no nome e que possuem o maior saldo atual com o nome da tabela de retorno sendo "MAIORES APOSTADORES" e "RIQUEZA" (NOT, AND, LIKE, NOT LIKE, ORDER BY, LIMIT, ALIAS)
